@@ -1,0 +1,607 @@
+@media (min-width: 3871px) and (max-width: 5464px){
+.login{
+    border-radius: 80px;
+    justify-content: center;
+    padding: 5vw;
+}
+
+.login-header img{
+    width: 10vw;
+    height: 10vw;
+    object-fit: cover;
+}
+
+.login-header h1{
+    color: #f75103;
+    text-align: center;
+    font-size: 90px;
+    font-weight: 900;
+}
+
+form input{
+    background-color: transparent;
+    border: transparent;
+    border-bottom: solid 6px #f75103;
+    width: 20vw;
+    font-size: 50px;
+}
+
+input[type=checkbox]{
+    width: 1vw;
+    height: 1vw;
+    vertical-align: middle;
+}
+
+.login a{
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.check{
+    gap: 4px;
+}
+
+.check label{
+    font-size: 50px;
+}
+
+.but button{
+    border-radius: 60px;
+    padding: 12px;
+}
+
+.but a{
+    font-size: 50px;
+}
+}
+
+@media (min-width: 2733px) and (max-width: 3871px){
+    .login{
+        border-radius: 70px;
+        justify-content: center;
+        padding: 5vw;
+    }
+    
+    .login-header img{
+        width: 8vw;
+        height: 8vw;
+        object-fit: cover;
+    }
+    
+    .login-header h1{
+        color: #f75103;
+        text-align: center;
+        font-size: 70px;
+        font-weight: 900;
+    }
+    
+    form input{
+        border-bottom: solid 4px #f75103;
+        width: 24vw;
+        font-size: 40px;
+    }
+    
+    input[type=checkbox]{
+        width: 1vw;
+        height: 1vw;
+        vertical-align: middle;
+    }
+    
+    .login a{
+        font-weight: 800;
+        font-size: 40px;
+    }
+    
+    .check{
+        gap: 4px;
+    }
+    
+    .check label{
+        font-size: 40px;
+    }
+    
+    .but button{
+        width: 12vw;
+        border-radius: 40px;
+        padding: 10px;
+    }
+    
+    .but a{
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 1921px) and (max-width: 2733px){
+    .login{
+        border-radius: 50px;
+        justify-content: center;
+        padding: 5vw;
+    }
+    
+    .login-header img{
+        width: 8vw;
+        height: 8vw;
+        object-fit: cover;
+    }
+    
+    .login-header h1{
+        color: #f75103;
+        text-align: center;
+        font-size: 46px;
+        font-weight: 900;
+    }
+    
+    form input{
+        border-bottom: solid 2px #f75103;
+        width: 24vw;
+        font-size: 26px;
+    }
+    
+    input[type=checkbox]{
+        width: 1vw;
+        height: 1vw;
+        vertical-align: middle;
+    }
+    
+    .login a{
+        font-weight: 800;
+        font-size: 26px;
+    }
+    
+    .check{
+        gap: 4px;
+    }
+    
+    .check label{
+        font-size: 26px;
+    }
+    
+    .but button{
+        width: 12vw;
+        border-radius: 30px;
+        padding: 8px;
+    }
+    
+    .but a{
+        font-size: 26px;
+    }
+}
+
+@media (min-width: 1610px) and (max-width: 1921px){
+    .login{
+        border-radius: 50px;
+        justify-content: center;
+        padding: 5vw;
+    }
+    
+    .login-header img{
+        width: 8vw;
+        height: 8vw;
+        object-fit: cover;
+    }
+    
+    .login-header h1{
+        color: #f75103;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 900;
+    }
+    
+    form input{
+        border-bottom: solid 2px #f75103;
+        width: 24vw;
+        font-size: 20px;
+    }
+    
+    input[type=checkbox]{
+        width: 1vw;
+        height: 1vw;
+        vertical-align: middle;
+    }
+    
+    .login a{
+        font-weight: 800;
+        font-size: 20px;
+    }
+    
+    .check{
+        gap: 4px;
+    }
+    
+    .check label{
+        font-size: 20px;
+    }
+    
+    .but button{
+        width: 12vw;
+        border-radius: 20px;
+        padding: 8px;
+    }
+    
+    .but a{
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1610px){
+    .login{
+        border-radius: 50px;
+        justify-content: center;
+        padding: 5vw;
+    }
+    
+    .login-header img{
+        width: 8vw;
+        height: 8vw;
+        object-fit: cover;
+    }
+    
+    .login-header h1{
+        color: #f75103;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 900;
+    }
+    
+    form input{
+        border-bottom: solid 2px #f75103;
+        width: 24vw;
+        font-size: 20px;
+    }
+    
+    input[type=checkbox]{
+        width: 1vw;
+        height: 1vw;
+        vertical-align: middle;
+    }
+    
+    .login a{
+        font-weight: 800;
+        font-size: 20px;
+    }
+    
+    .check{
+        gap: 4px;
+    }
+    
+    .check label{
+        font-size: 20px;
+    }
+    
+    .but button{
+        width: 12vw;
+        border-radius: 20px;
+        padding: 8px;
+    }
+    
+    .but a{
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px){
+    .login{
+        border-radius: 40px;
+        justify-content: center;
+        padding: 5vw;
+    }
+    
+    .login-header img{
+        width: 8vw;
+        height: 8vw;
+        object-fit: cover;
+    }
+    
+    .login-header h1{
+        color: #f75103;
+        text-align: center;
+        font-size: 26px;
+        font-weight: 900;
+    }
+    
+    form input{
+        border-bottom: solid 1px #f75103;
+        width: 24vw;
+        font-size: 16px;
+    }
+    
+    input[type=checkbox]{
+        width: 1vw;
+        height: 1vw;
+        vertical-align: middle;
+    }
+    
+    .login a{
+        font-weight: 600;
+        font-size: 16px;
+    }
+    
+    .check{
+        gap: 4px;
+    }
+    
+    .check label{
+        font-size: 16px;
+    }
+    
+    .but button{
+        width: 12vw;
+        border-radius: 20px;
+        padding: 8px;
+    }
+    
+    .but a{
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .login{
+        margin: 10% 0%;
+        border-radius: 30px;
+        justify-content: center;
+        padding: 6vw;
+    }
+    
+    .login-header img{
+        width: 9vw;
+        height: 9vw;
+        object-fit: cover;
+    }
+    
+    .login-header h1{
+        color: #f75103;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 900;
+    }
+    
+    form input{
+        border-bottom: solid 1px #f75103;
+        width: 24vw;
+        font-size: 10px;
+    }
+    
+    input[type=checkbox]{
+        width: 2vw;
+        height: 2vw;
+        vertical-align: middle;
+    }
+    
+    .login a{
+        font-weight: 600;
+        font-size: 10px;
+    }
+    
+    .check{
+        gap: 2px;
+    }
+    
+    .check label{
+        font-size: 10px;
+    }
+    
+    .but button{
+        width: 12vw;
+        border-radius: 20px;
+        padding: 4px;
+    }
+    
+    .but a{
+        font-size: 10px;
+        font-weight: 600;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 768px){
+    .login{
+        margin: 20% 0%;
+        border-radius: 30px;
+        justify-content: center;
+        padding: 6vw;
+    }
+    
+    .login-header img{
+        width: 9vw;
+        height: 9vw;
+        object-fit: cover;
+    }
+    
+    .login-header h1{
+        color: #f75103;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 900;
+    }
+    
+    form input{
+        border-bottom: solid 1px #f75103;
+        width: 24vw;
+        font-size: 10px;
+    }
+    
+    input[type=checkbox]{
+        width: 2vw;
+        height: 2vw;
+        vertical-align: middle;
+    }
+    
+    .login a{
+        font-weight: 600;
+        font-size: 10px;
+    }
+    
+    .check{
+        gap: 2px;
+    }
+    
+    .check label{
+        font-size: 10px;
+    }
+    
+    .but button{
+        width: 12vw;
+        border-radius: 20px;
+        padding: 4px;
+    }
+    
+    .but a{
+        font-size: 10px;
+        font-weight: 600;
+    }
+}
+
+@media (min-width: 475px) and (max-width: 640px){
+    .container .aside{
+        display: none;
+    }
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .login{
+        border-radius: 24px;
+        justify-content: center;
+        align-items: center;
+        width: 80vw;
+        height: 90vw;
+        padding: 6vw;
+    }
+    
+    .login-header img{
+        width: 50vw;
+        height: 40vw;
+        object-fit: cover;
+    }
+    
+    .login-header h1{
+        color: #f75103;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 900;
+    }
+    
+    form input{
+        border-bottom: solid 1px #f75103;
+        width: 54vw;
+        font-size: 16px;
+    }
+    
+    input[type=checkbox]{
+        width: 3vw;
+        height: 3vw;
+        vertical-align: middle;
+    }
+    
+    .login a{
+        font-weight: 600;
+        font-size: 18px;
+    }
+    
+    .check{
+        gap: 2px;
+    }
+    
+    .check label{
+        font-size: 18px;
+    }
+    
+    .but button{
+        width: 26vw;
+        border-radius: 15px;
+        padding: 6px;
+    }
+    
+    .but a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 475px){
+    .container .aside{
+        display: none;
+    }
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .login{
+        border-radius: 24px;
+        justify-content: center;
+        align-items: center;
+        width: 80vw;
+        height: 90vw;
+        padding: 6vw;
+    }
+    
+    .login-header img{
+        width: 50vw;
+        height: 40vw;
+        object-fit: cover;
+    }
+    
+    .login-header h1{
+        color: #f75103;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 900;
+    }
+    
+    form input{
+        border-bottom: solid 1px #f75103;
+        width: 54vw;
+        font-size: 14px;
+    }
+    
+    input[type=checkbox]{
+        width: 3vw;
+        height: 3vw;
+        vertical-align: middle;
+    }
+    
+    .login a{
+        font-weight: 600;
+        font-size: 16px;
+    }
+    
+    .check{
+        gap: 2px;
+    }
+    
+    .check label{
+        font-size: 16px;
+    }
+    
+    .but button{
+        width: 26vw;
+        border-radius: 15px;
+        padding: 6px;
+    }
+    
+    .but a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
+
+
+
+
+
+

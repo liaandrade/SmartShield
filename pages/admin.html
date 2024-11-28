@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/reset.css">
+    <link rel="stylesheet" href="../estilos/styletwo.css">
+    <link rel="stylesheet" href="../estilos/mediatwo.css">
+    <title>Admin</title>
+</head>
+<body>
+    <header>
+        <div class="information">
+                <figure>
+                    <img class="logo" src="../img/SMARTSHIELD (2) (1).png" alt="logo">
+                </figure>
+                <h1>SmartShield</h1>
+
+                <div class="admin">
+                    <h2>Olá, Admin</h2>
+                    <figure>
+                        <img src="../img/pngwing.com.png" alt="perfil">
+                    </figure>
+                </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="main">
+            <section class="sides">
+                <div class="sidebar">
+                    <a href="#disp">Dispositivos</a>
+                    <a href="#mapp">Mapeamento</a>
+                    <a href="#distr">Gerenciar</a>
+                    <input class="inp" type="button" onclick="funcao1()" value="Manutenções"/>
+                </div>
+            </section>
+
+            <section>
+                <div class="content">
+                    <div class="devices" id="disp">
+                        <h2>DISPOSITIVOS CONECTADOS</h2>
+                        <figure>
+                            <img src="../img/file.png" alt="sensor">
+                        </figure>
+
+                        <figure>
+                            <img src="../img/file (1).png" alt="sensor">
+                        </figure>
+
+                        <figure>
+                            <img src="../img/file (2).png" alt="sensor">
+                        </figure>
+
+                        <figure>
+                            <img src="../img/file (3).png" alt="sensor">
+                        </figure>
+                    </div>
+
+                    <div class="sidebar-one">
+                        <h3>Notificações:</h3>
+                        <a href="#">Urgentes</a>
+                        <a href="#">Não urgente</a>
+                        <a href="#">Respondidas</a>
+                    </div>
+
+                    <div class="map" id="mapp">
+                        <h2>Mapeamento</h2>
+                        <iframe class="loc" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19100.351462334682!2d-39.32683922105983!3d-7.224322795700839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a1789b9e348137%3A0x6fac36329d98a8ea!2sJuazeiro%20do%20Norte%2C%20CE!5e0!3m2!1spt-BR!2sbr!4v1732736221812!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                    <div class="settings">
+                        <h2>Gerenciar sensores</h2>
+                        <select name="sensor" id="sensor">
+                            <option value="1">Sensor 01</option>
+                            <option value="2">Sensor 02</option>
+                            <option value="3">Sensor 03</option>
+                        </select>
+
+                        <label for="temp">TEMPERATURA °C</label>
+                        <input type="range" id="temp" 
+                        min="0" 
+                        max="100" 
+                        value="70">
+
+                        <label for="umi">UMIDADE %</label>
+                        <input type="range" id="umi"
+                        min="0" 
+                        max="100" 
+                        value="10">
+
+                        <label for="prox">PROXIMIDADE cm</label>
+                        <input type="range" id="prox"
+                        min="0" 
+                        max="100" 
+                        value="20">
+
+                        <label for="freq"> FREQUÊNCIA Hz</label>
+                        <input type="range" id="freq"
+                        min="0" 
+                        max="100" 
+                        value="70">
+                    </div>
+
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script>
+        function funcao1(){
+            alert("Não há manutenções a se fazer no momento. Todos os sensores estão ativos!");
+        }
+    </script>
+</body>
+</html>

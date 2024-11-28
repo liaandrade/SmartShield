@@ -1,0 +1,1490 @@
+@media (min-width: 3870px) and (max-width: 5464px){
+    .alertas p, select, .inp, .butt, .f5{
+        font-size: 50px;
+    }
+
+    header > .logo{
+        height: 250px;
+        border-radius: 80px;
+    }
+
+    header > .logo > nav > ul > li > a {
+        text-decoration: none;
+        color: #f75103;
+        font-weight: bolder;
+        transition: all .25s;
+        font-size: 70px;
+    }
+
+    .logo img{
+        width: 250px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 20px; 
+    }
+
+    select, .inp, .but-on, .f5{
+        border-radius: 80px;
+        font-weight: 700;
+        padding: 50px;
+    }
+
+    .inp:hover, .butt:hover, .f5:hover, .but-on:hover{
+        padding: 60px;
+    }
+
+    main > .alertas{
+        border-radius: 150px;
+    }
+
+    main > .alertas > .alerta_localidades > h1{
+        font-size: 90px;
+    }
+
+    main .rato img {
+        margin: 100px auto;
+    }
+
+    main > .alertas > .localidade > .loading > img{
+        margin: 100px auto;
+    }
+
+    .alertas h2, .control h2, .about_us h2, .project h2, footer h2{
+        font-size: 70px;
+    }
+
+    .control{
+        height: max-content;
+        padding: 80px;
+        border-radius: 150px;
+    }
+
+    main > .relatorios> h1{
+        width: 2000px;
+        height: 160px;
+        font-size: 90px;
+    }
+
+    main > .relatorios > .relatorios_grid {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    main > .relatorios > .relatorios_grid > .relatorio_items {
+        border-top-right-radius: 140px;
+        border-bottom-left-radius: 140px;
+    }
+
+    main > .relatorios > .relatorios_grid > .relatorio_items > figure {
+        height: 1050px;
+        border-top-right-radius: 140px;
+        margin: 50px;
+    }
+
+    main > .relatorios > .relatorios_grid > .relatorio_items > .text_relatorio > h1 {
+        font-size: 5em;
+        padding: 20px;
+    }
+
+    main > .relatorios > .relatorios_grid > .relatorio_items > .text_relatorio > p {
+        font-size: 4.3em;
+        padding: 0px 20px 20px 20px;
+    }
+
+    main > .relatorios > .filtros {
+        font-size: 6em;
+        margin: 100px auto;
+        border-radius: 80px;
+        padding: 10px 80px;
+    }
+
+    .alertas:not(:hover), .project:not(:hover), .about:not(:hover){
+        padding: 100px;
+        transition: 1s;
+    }
+
+    .alertas:hover, .project:hover, .about:hover{
+        padding: 150px;
+        transform: translateX(10px);
+        transition: 1s;
+    }
+
+    .about_us, .project{
+        border-radius: 150px;
+    }
+
+    .circuit > .arduino> figure > img, .about > .group > figure > img {
+        width: 700px;
+    }
+
+    .paragr{
+        gap:50px
+    }
+
+    .paragr p{
+        font-size: 60px;
+        text-indent: 2em;
+        text-align: justify;
+    }
+
+    .paragr > button{
+        height: 80px;
+    }
+
+    .paragr > button > a{
+        width: 900px;
+        font-size: 60px;
+    }
+
+    footer> .contact{
+        border-radius: 150px;
+    }
+
+    footer > .contact > .h1_contact > h1 {
+        font-size: 40px;
+    }
+
+    footer > .contact > .social_medias > ul > li > a, footer > .contact > .email > p > a{
+        font-size: 34px ;
+    }
+
+    footer > .contact > .h1_contact > h1 {
+        font-size: 90px;
+    }
+
+    footer > .contact > .social_medias > ul > li > a, footer > .contact > .email > p > a{
+        font-size: 50px ;
+    }
+
+    footer > .contact > .social_medias > ul > li > .face::before, footer > .contact > .social_medias > ul > li > .inst::before, footer > .contact > .social_medias > ul > li > .twit::before, footer > .contact > .email > p > a::before {
+        display: none;
+    }
+}
+
+@media (min-width: 2733px) and (max-width: 3870px){
+    .alertas p, select, .inp, .butt, .f5{
+        font-size: 50px;
+    }
+
+    header > .logo{
+        height: 180px;
+    }
+
+    header > .logo > nav > ul > li > a {
+        text-decoration: none;
+        color: #f75103;
+        font-weight: bolder;
+        transition: all .25s;
+        font-size: 40px;
+    }
+
+    .logo img{
+        width: 200px;
+        height: 170px;
+        object-fit: cover;
+        border-radius: 20px; 
+    }
+
+    select{
+        border-radius: 80px;
+        font-weight: 700;
+        padding: 15px;
+    }
+
+    .inp, .but-on, .f5{
+        border-radius: 80px;
+        font-weight: 700;
+        padding: 50px;
+    }
+
+    .inp:hover, .butt:hover, .f5:hover, .but-on:hover{
+        padding: 30px;
+    }
+
+    main > .alertas{
+        border-radius: 150px;
+    }
+
+    main > .alertas > .alerta_localidades > h1{
+        font-size: 90px;
+    }
+
+    main .rato img {
+        margin: 100px auto;
+    }
+
+    main > .alertas > .localidade > .loading > img{
+        margin: 100px auto;
+    }
+
+    .alertas h2, .control h2, .about_us h2, .project h2, footer h2{
+        font-size: 70px;
+    }
+
+    .control{
+        height: max-content;
+        padding: 80px;
+        border-radius: 150px;
+    }
+
+    main > .relatorios> h1{
+        width: 2000px;
+        height: 160px;
+        font-size: 90px;
+    }
+
+    main > .relatorios > .relatorios_grid {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    main > .relatorios > .relatorios_grid > .relatorio_items {
+        border-top-right-radius: 140px;
+        border-bottom-left-radius: 140px;
+    }
+
+    main > .relatorios > .relatorios_grid > .relatorio_items > figure {
+        height: 1050px;
+        border-top-right-radius: 140px;
+        margin: 50px;
+    }
+
+    main > .relatorios > .relatorios_grid > .relatorio_items > .text_relatorio > h1 {
+        font-size: 4em;
+        padding: 20px;
+    }
+
+    main > .relatorios > .relatorios_grid > .relatorio_items > .text_relatorio > p {
+        font-size: 4.3em;
+        padding: 0px 20px 20px 20px;
+    }
+
+    main > .relatorios > .filtros {
+        font-size: 6em;
+        margin: 100px auto;
+        border-radius: 80px;
+        padding: 10px 80px;
+    }
+
+    .alertas:not(:hover), .project:not(:hover), .about:not(:hover){
+        padding: 100px;
+        transition: 1s;
+    }
+
+    .alertas:hover, .project:hover, .about:hover{
+        padding: 150px;
+        transform: translateX(10px);
+        transition: 1s;
+    }
+
+    .about_us, .project{
+        border-radius: 150px;
+    }
+
+    .circuit > .arduino> figure > img, .about > .group > figure > img {
+        width: 700px;
+    }
+
+    .paragr p{
+        font-size: 60px;
+        text-indent: 2em;
+        text-align: justify;
+    }
+
+    .paragr > button{
+        height: 80px;
+    }
+
+    .paragr > button > a{
+        width: 800px;
+        font-size: 60px;
+    }
+
+    footer> .contact{
+        border-radius: 90px;
+    }
+
+    footer h2{
+        font-size: 50px;
+    }
+
+    footer > .contact > .h1_contact > h1 {
+        font-size: 70px;
+    }
+
+    footer > .contact > .social_medias > ul > li > a, footer > .contact > .email > p > a{
+        font-size: 40px ;
+    }
+
+    footer > .contact > .social_medias > ul > li > a, footer > .contact > .email > p > a{
+        font-size: 40px ;
+    }
+
+    footer > .contact > .social_medias > ul > li > .face::before, footer > .contact > .social_medias > ul > li > .inst::before, footer > .contact > .social_medias > ul > li > .twit::before, footer > .contact > .email > p > a::before {
+        display: none;
+    }
+
+}
+
+@media (min-width: 1920px) and (max-width: 2733px) {
+    header > .logo > nav > ul > li > a, .alertas p, select, .inp, .butt, .f5{
+        font-size: 40px;
+    }
+
+    select, .inp, .f5{
+        border-radius: 34px;
+        padding: 10px;
+        font-weight: 700;
+    }
+
+    
+    header > .logo{
+        height: 150px;
+    }
+
+    header > .logo > nav > ul > li > a {
+        text-decoration: none;
+        color: #f75103;
+        font-weight: bolder;
+        transition: all .25s;
+        font-size: 30px;
+    }
+
+    .logo img{
+        width: 200px;
+        height: 140px;
+        object-fit: cover;
+        border-radius: 20px; 
+    }
+
+    .f5:not(:hover), .but:not(:hover), .but-on:not(:hover){
+        padding: 40px;
+        height: 40px;
+    }
+
+    main > .alertas{
+        border-radius: 40px;
+    }
+
+    main .rato img {
+        margin: 100px auto;
+    }
+
+    main > .alertas > .localidade > .loading > img{
+        margin: 100px auto;
+    }
+
+    .alertas h2, .control h2, .about_us h2, .project h2, footer h2{
+        font-size: 50px;
+    }
+
+    main > .relatorios > h1{
+        height: 110px;
+    }
+
+    main > .relatorios > .relatorios_grid {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    main > .relatorios > .relatorios_grid > .relatorio_items > figure {
+        height: 400px;
+    }
+
+    main > .relatorios > .relatorios_grid > .relatorio_items > .text_relatorio > h1 {
+        font-size: 2.2em;
+    }
+
+    main > .relatorios > .relatorios_grid > .relatorio_items > .text_relatorio > p {
+        font-size: 1.6em;
+    }
+
+    main > .relatorios > .filtros {
+        margin-top: 60px;
+        font-size: 2em;
+    }
+
+    .paragr p{
+        font-size: 34px;
+        text-indent: 2em;
+        text-align: justify;
+    }
+
+    .paragr > button{
+        height: 10px;
+    }
+
+    .paragr > button > a{
+        width: 300px;
+        font-size: 26px;
+    }
+
+    footer > .contact > .social_medias > h2, footer > .contact > .email > h2 {
+        font-size: 24px;
+    }
+    
+    footer > .contact > .h1_contact > h1 {
+        font-size: 40px;
+    }
+
+    footer > .contact > .social_medias > ul > li > a, footer > .contact > .email > p > a{
+        font-size: 26px ;
+    }
+}
+
+@media (min-width: 1610px) and (max-width: 1920px) {
+    header > .logo > nav > ul > li > a, .alertas p, select, .inp, .butt, .f5{
+        font-size: 26px;
+    }
+
+    select, .inp, .butt, .f5{
+        border-radius: 30px;
+        font-weight: 700;
+    }
+
+    header > .logo{
+        height: 150px;
+    }
+
+    .logo img{
+        width: 200px;
+        height: 140px;
+        object-fit: cover;
+        border-radius: 20px; 
+    }
+
+    main > .alertas{
+        border-radius: 40px;
+    }
+
+    main .rato img {
+        margin: 100px auto;
+    }
+
+    main > .alertas > .localidade > .loading > img{
+        margin: 100px auto;
+    }
+
+    .alertas h2, .control h2, .about_us h2, .project h2{
+        font-size: 30px;
+    }
+
+    .circuit .paragr, .about .paragr{
+        font-size: 26px;
+        text-indent: 2em;
+        text-align: justify;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1610px) {
+    main > .alertas > .alerta_localidades > h1 {
+        font-size: 36px;
+    }
+
+    p{
+        font-size:20px;
+    }
+
+    h2{
+        font-size: 22px;
+    }
+    
+    main .rato img {
+        position: absolute;
+        width: 150px;
+        top: 50px;
+        left: 40px;
+    }
+
+    main > .alertas > .localidade > .loading> img{
+        width: 180px;
+        height: 180px;
+    }
+    
+    .circuit > .arduino> figure > img,.about > .group > figure > img{
+        display: flex;
+        justify-content: space-between;
+        border-radius: 20px;
+        width: 350px;
+        height: 250px;
+    }
+
+    .paragr {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .paragr > button > a{
+        display: flex;
+        justify-content: center;
+        width:200px
+    }
+
+    footer > .contact > .h1_contact > h1 {
+        font-size: 34px;
+    }
+
+    footer h2{
+        font-size: 18px;
+    }
+
+    footer > .contact > .social_medias > h2{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    main > .alertas > .alerta_localidades > h1 {
+        font-size: 30px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+
+    h2{
+        text-align: justify;
+        font-size: 20px;
+    }
+
+    main .rato img{
+        position: absolute;
+        width: 120px;
+        top: 40px;
+        left: 30px;
+    }
+
+    main .medidor img {
+        position: absolute;
+        width: 120px;
+        left: 40px;
+        top: 50px;
+    }
+
+    main > .alertas > .localidade > .loading> img{
+        width: 150px;
+        height: 150px;
+    }
+
+    select, .inp{
+        padding: 8px 9px;
+    }
+
+    .f5, .but-on{
+        padding: 12px;
+    }
+
+    main > .relatorios > h1 {
+        width: 300px;
+        height: 20px;
+        padding: 15px 30px;
+        border-radius: 10px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .circuit, .about{
+        flex-direction: column;
+        align-items: center;
+        padding: 60px;
+        height: fit-content;
+        gap: 40px;
+        border-radius: 30px;  
+    }
+
+    .circuit > .arduino> figure > img,.about > .group > figure > img{
+        display: flex;
+        width: 400px;
+        height: 250px;
+    }
+
+    .paragr {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .paragr > button > a{
+        display: flex;
+        justify-content: center;
+        width:400px
+    }
+
+    footer > .contact{
+        gap: 10px;
+    }
+
+    footer > .contact > .h1_contact > h1 {
+        font-size: 30px;
+    }
+
+    footer h2{
+        font-size: 18px;
+    }
+
+    footer a, li{
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    header > .logo > nav > ul > li > a {
+        font-size: 15px;
+    }
+    
+    main > .alertas > .alerta_localidades > h1 {
+        font-size: 24px;
+    }
+    
+    p{
+        font-size: 18px;
+    }
+
+    .alertas {
+        font-size: 15px;
+    }
+
+    main .rato img{
+        position: absolute;
+        width: 100px;
+        top: 60px;
+        left: 10px;
+    }
+
+    main .medidor img {
+        position: absolute;
+        width: 100px;
+        left: 30px;
+        top: 70px;
+    }
+
+    main > .alertas > .localidade > .loading > img{
+        width: 100px;
+        height: 100px;
+    }
+
+    select, .inp{
+        padding: 8px 9px;
+    }
+
+    .f5, .but-on{
+        padding: 7px;
+    }
+
+    main > .relatorios > h1 {
+        width: 300px;
+        height: fit-content;
+        padding: 15px 30px;
+        border-radius: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    main > .relatorios > .relatorios_grid {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    main > .relatorios > .relatorios_grid > .relatorio_items > .text_relatorio > h1 {
+        font-size: 1.1em;
+    }
+
+    main > .relatorios > .relatorios_grid > .relatorio_items > .text_relatorio > p {
+        font-size: 0.95em;
+        line-height: 1.3;
+    }
+
+    main > .relatorios > .relatorios_grid > .relatorio_items > figure {
+        overflow: hidden;
+        height: 155px;
+    }
+
+    main > .relatorios > .relatorios_grid > .relatorio_items > figure > img {
+        height: 100%;
+    }
+
+    .control{
+        padding: 80px;
+        gap: 15px;
+        height: 400px;
+    }
+
+    .control h2{
+        text-align: center;
+    }
+
+    .control> .control-one> .filters> nav > ul{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .control> .control-one> .filters> nav > ul> select{
+        display: flex;
+        align-items: center;
+        width: 300px;
+        text-align: center;
+    }
+
+    .project, .about_us{
+        padding: 40px 30px;
+        margin-top: 10vh;
+        border-radius: 40px;
+    }
+
+    .circuit, .about{
+        flex-direction: column;
+        align-items: center;
+        padding: 60px;
+        height: fit-content;
+        gap: 40px;
+        border-radius: 30px;  
+    }
+
+    .circuit > .arduino> figure > img{
+        display: flex;
+        justify-content: space-between;
+        border-radius: 30px;
+        width: 400px;
+        height: 150px;
+    }
+
+    .paragr {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .paragr > button > a{
+        display: flex;
+        justify-content: center;
+        width:400px
+    }
+
+    
+    footer > .contact {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    footer > .contact > .h1_contact {
+        display: flex;
+        width: 100%;
+        font-size: 1em;
+    }
+
+    footer > .contact > .h1_contact > h1 {
+        display: flex;
+        text-align: center;
+    }
+
+    footer h2{
+        font-size: 20px;
+    }
+
+    footer a, li{
+        font-size: 15px;
+    }
+}
+
+
+@media (min-width: 640px) and (max-width: 768px){
+    header > .logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: white;
+        height: max-content;
+        margin-top: 10vw;
+        padding: 40px;
+        border-radius: 20px;  
+    }
+
+    header > .logo > nav > ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        background-color: white;
+    }
+        
+    header > .logo > nav > ul > li > a {
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+        border: solid 1px #f75103;
+        border-radius: 15px;
+        color: #f75103;
+        background-color: #fff7f3;
+        padding: 2px;
+        width: 50vw;
+        font-size: 20px;
+        font-weight: bolder;
+        transition: all .25s;
+    }
+
+    header> .logo > nav > ul > li > a:hover {
+        background-color: #f75103;
+        color: white;
+        padding: 3px;
+        border-radius: 15px;
+        width: 50vw;
+    }
+
+    main > .logo > nav > ul > li > a:active {
+        background-color: #f75103;
+    }
+
+    main > .alertas{
+        margin-top: 4vw;
+        text-align: justify;
+    }
+    
+    main > .alertas > .alerta_localidades > h1 {
+        font-size: 24px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+
+    header > nav > ul > li > a {
+        font-size: 16px;
+    }
+
+    main .rato img{
+        position: absolute;
+        width: 80px;
+        top: 60px;
+        left: 8px;
+    }
+
+    main .medidor img {
+        position: absolute;
+        width: 80px;
+        margin: 50% auto;
+    }
+
+
+    main > .alertas > .localidade > .loading > img{
+        margin-top: auto;
+        margin-left: auto;
+        width: 100px;
+        height: 100px;
+    }
+
+    select, .inp{
+        padding: 6px 7px;
+    }
+
+    .f5, .but-on{
+        padding: 8px;
+        border-radius: 20px;
+        height: fit-content;
+    }
+
+    .f5:hover, .but:hover, .but-on:hover{
+        padding: 9px;
+        transition: 0.5s;
+        -webkit-box-shadow: 7px 9px 5px 0px rgba(231,166,26,0.61);
+        -moz-box-shadow: 7px 9px 5px 0px rgba(231,166,26,0.61);
+        box-shadow: 7px 9px 5px 0px rgba(231,166,26,0.61);
+    }    
+
+    .butt{
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .control{
+        padding: 80px;
+        gap: 15px;
+        height: 400px;
+    }
+
+    .control h2{
+        text-align: center;
+    }
+
+    .control> .control-one> .filters> nav > ul{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .control> .control-one> .filters> nav > ul> select{
+        display: flex;
+        align-items: center;
+        width: 300px;
+        text-align: center;
+    }
+
+    main > .relatorios > .relatorios_grid {
+        flex-direction: column;
+        width: 80vw;
+        max-width: 450px;
+        margin: auto;
+        gap: 30px;
+    }
+
+    main > .relatorios > .relatorios_grid > .relatorio_items {
+        width: 100%;
+    }
+
+    main > .relatorios > .relatorios_grid > .relatorio_items > figure > img {
+        width: 100%;
+    }
+
+    .project, .about_us{
+        padding: 40px 30px;
+        margin-top: 10vh;
+        border-radius: 40px;
+    }
+
+    .circuit, .about{
+        flex-direction: column;
+        align-items: center;
+        padding: 40px;
+        height: fit-content;
+        gap: 40px;
+        border-radius: 30px;  
+        font-size: 15px;
+    }
+
+    .circuit > .arduino> figure > img{
+        display: flex;
+        justify-content: space-between;
+        border-radius: 20px;
+        width: 400px;
+        height: 150px;
+    }
+
+    .about > .group > figure > img{
+        width: 300px;
+        height: 200px;
+    }
+
+    .paragr {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .paragr > button > a{
+        display: flex;
+        justify-content: center;
+        width:200px
+    }
+
+    
+    footer > .contact {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    footer > .contact > .h1_contact {
+        display: flex;
+        width: 100%;
+        font-size: 0.7em;
+    }
+
+    footer > .contact > .h1_contact > h1 {
+        display: flex;
+        text-align: center;
+    }
+
+    footer h2{
+        font-size: 20px;
+    }
+
+    footer a, li{
+        font-size: 16px;
+    }
+}
+
+
+@media (min-width: 475px) and (max-width: 640px){
+    header > .logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: white;
+        height: max-content;
+        margin-top: 10vw;
+        padding: 40px;
+        border-radius: 20px;  
+    }
+
+    header > .logo > nav > ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        background-color: white;
+    }
+        
+    header > .logo > nav > ul > li > a {
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+        border: solid 1px #f75103;
+        border-radius: 15px;
+        color: #f75103;
+        background-color: #fff7f3;
+        width: 50vw;
+        font-size: 18px;
+        font-weight: bolder;
+        transition: all .25s;
+    }
+
+    header> .logo > nav > ul > li > a:hover {
+        background-color: #f75103;
+        color: white;
+        padding: 3px;
+        border-radius: 15px;
+        width: 50vw;
+    }
+
+    main > .logo > nav > ul > li > a:active {
+        background-color: #f75103;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    main > .alertas {
+        margin-top: 4vw;
+        height: 850px;
+        text-align: center;
+    }
+
+    main > .alertas > .alerta_localidades > h1 {
+        font-size: 24px;
+    }
+
+    h2{
+        font-size: 22px;
+        text-align: center;
+     }
+
+    .alerta_localidades{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .localidade{
+        display: flex;
+        flex-direction:column-reverse;
+    }
+
+    main .rato img{
+        position: absolute;
+        width: 150px;
+        margin-top: 30%;
+        margin-left: 20%;
+    }
+
+    main .medidor img {
+        display: none;
+    }
+
+    main > .alertas > .localidade > .loading > img{
+        margin-left: 20%;
+        margin-top: 10%;
+        margin-bottom: 8%;
+        width: 200px;
+        height: 150px;
+    }
+
+    select, .inp{
+        width: 70vw;
+        padding: 6px 7px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    button{
+        margin: 0 auto;
+        width: 50vw;
+        text-align: center;
+        padding: 8px;
+        border-radius: 20px;
+        height: fit-content;
+    }
+
+    .f5:hover, .but:hover, .but-on:hover{
+        padding: 9px;
+        transition: 0.5s;
+        -webkit-box-shadow: 7px 9px 5px 0px rgba(231,166,26,0.61);
+        -moz-box-shadow: 7px 9px 5px 0px rgba(231,166,26,0.61);
+        box-shadow: 7px 9px 5px 0px rgba(231,166,26,0.61);
+    }    
+
+    .butt{
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    
+    .control{
+        padding: 50px;
+        gap: 15px;
+        height: 400px;
+    }
+
+    .control h2{
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .control> .control-one> .filters> nav > ul{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .control> .control-one> .filters> nav > ul> select{
+        display: flex;
+        align-items: center;
+        width: 70vw;
+        text-align: center;
+    }
+
+
+    main > .relatorios > h1{
+        width: 300px;
+        font-size: 20px;
+        padding: 20px 30px;
+    }
+
+    main > .relatorios > .relatorios_grid {
+        flex-direction: column;
+        width: 80vw;
+        max-width: 450px;
+        margin: auto;
+        gap: 30px;
+    }
+
+    main > .relatorios > .relatorios_grid > .relatorio_items {
+        width: 100%;
+    }
+
+    main > .relatorios > .relatorios_grid > .relatorio_items > figure > img {
+        width: 100%;
+    }
+
+    .project, .about_us{
+        padding: 40px 30px;
+        margin-top: 10vh;
+        border-radius: 40px;
+    }
+
+    .circuit, .about{
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        height: fit-content;
+        gap: 40px;
+        border-radius: 30px;  
+        font-size: 10px;
+    }
+
+    .circuit > .arduino> figure > img{
+        display: flex;
+        justify-content: space-between;
+        border-radius: 20px;
+        width: 200px;
+        height: 140px;
+    }
+
+    .about > .group > figure > img{
+        width: 250px;
+        height: 180px;
+    }
+
+    .paragr {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .paragr > button > a{
+        display: flex;
+        justify-content: center;
+        width:200px
+    }
+
+    footer > .contact {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    footer > .contact > .h1_contact {
+        display: flex;
+        width: 100%;
+        font-size: 0.6em;
+    }
+
+    footer > .contact > .h1_contact > h1 {
+        display: flex;
+        text-align: center;
+    }
+
+    footer h2{
+        font-size: 18px;
+    }
+
+    footer a, li{
+        font-size: 16px;
+    }
+}
+
+
+@media (min-width: 1px) and (max-width: 475px){
+    header > .logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: white;
+        height: max-content;
+        margin-top: 10vw;
+        padding: 40px;
+        border-radius: 20px;  
+    }
+
+    header > .logo > nav > ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        background-color: white;
+    }
+        
+    header > .logo > nav > ul > li > a {
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+        border: solid 1px #f75103;
+        border-radius: 15px;
+        color: #f75103;
+        background-color: #fff7f3;
+        width: 40vw;
+        font-size: 16px;
+        font-weight: bolder;
+        transition: all .25s;
+    }
+
+    header> .logo > nav > ul > li > a:hover {
+        background-color: #f75103;
+        color: white;
+        padding: 3px;
+        border-radius: 15px;
+        width: 40vw;
+    }
+
+    main > .logo > nav > ul > li > a:active {
+        background-color: #f75103;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    h2{
+       font-size: 22px;
+    }
+
+    main > .alertas {
+        margin-top: 6vw;
+        height: 850px;
+        text-align: center;
+    }
+
+    main > .alertas > .alerta_localidades > h1 {
+        font-size: 24px;
+    }
+
+    .alerta_localidades{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .localidade{
+        display: flex;
+        flex-direction:column-reverse;
+    }
+
+    main .rato img{
+        position: absolute;
+        width: 100px;
+        margin-top: 40%;
+        margin-left: 10%;
+    }
+
+    main .medidor img {
+        display: none;
+    }
+
+    main > .alertas > .localidade > .loading > img{
+        margin-left: 40%;
+        margin-top: 10%;
+        margin-bottom: 8%;
+        width: 60px;
+        height: 80px;
+    }
+
+    select, .inp{
+        width: 70vw;
+        padding: 6px 7px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    button{
+        margin: 0 auto;
+        width: 50vw;
+        text-align: center;
+        padding: 8px;
+        border-radius: 20px;
+        height: fit-content;
+    }
+
+    .f5:hover, .but:hover, .but-on:hover{
+        padding: 9px;
+        transition: 0.5s;
+        -webkit-box-shadow: 7px 9px 5px 0px rgba(231,166,26,0.61);
+        -moz-box-shadow: 7px 9px 5px 0px rgba(231,166,26,0.61);
+        box-shadow: 7px 9px 5px 0px rgba(231,166,26,0.61);
+    }    
+
+    .butt{
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    
+    .control{
+        padding: 50px;
+        gap: 15px;
+        height: 400px;
+    }
+
+    .control h2{
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .control> .control-one> .filters> nav > ul{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .control> .control-one> .filters> nav > ul> select{
+        display: flex;
+        align-items: center;
+        width: 70vw;
+        text-align: center;
+    }
+
+
+    main > .relatorios > h1{
+        width: 300px;
+        font-size: 20px;
+        padding: 20px 30px;
+    }
+
+    main > .relatorios > .relatorios_grid {
+        flex-direction: column;
+        width: 80vw;
+        max-width: 450px;
+        margin: auto;
+        gap: 30px;
+    }
+
+    main > .relatorios > .relatorios_grid > .relatorio_items {
+        width: 100%;
+    }
+
+    main > .relatorios > .relatorios_grid > .relatorio_items > figure > img {
+        width: 100%;
+    }
+
+    .project, .about_us{
+        padding: 30px 10px;
+        margin-top: 10vh;
+        border-radius: 40px;
+    }
+
+    .circuit, .about{
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+        gap: 40px;
+        border-radius: 30px;  
+        font-size: 10px;
+    }
+
+    .circuit > .arduino> figure > img{
+        display: flex;
+        justify-content: space-between;
+        border-radius: 20px;
+        width: 200px;
+        height: 140px;
+    }
+
+    .alertas:not(:hover), .project:not(:hover), .about:not(:hover) {
+        padding: 20px;
+        transition: 1s;
+    }
+
+    .about > .group > figure > img{
+        width: 250px;
+        height: 180px;
+    }
+
+    .paragr {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .paragr > button > a{
+        display: flex;
+        justify-content: center;
+        width:200px
+    }
+
+    footer > .contact {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    footer > .contact > .h1_contact {
+        display: flex;
+        width: 100%;
+        font-size: 0.6em;
+    }
+
+    footer > .contact > .h1_contact > h1 {
+        display: flex;
+        text-align: center;
+    }
+
+    footer h2{
+        font-size: 18px;
+    }
+
+    footer a, li{
+        font-size: 16px;
+    }
+}
+

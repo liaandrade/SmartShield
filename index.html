@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media.css">
+    <title>PI 2024.2</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <figure>
+                <img src="img/SMARTSHIELD.gif" alt="">
+            </figure>
+
+            <nav>
+                <ul>
+                    <li><a href="#alert">Alertas</a></li>
+                    <li><a href="#report">Relatórios</a></li>
+                    <li><a href="#about">Sobre nós</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                    <li><a href="pages/login.html">Administrador</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+        <main>
+        <section id="alert" class="alertas">
+            <div class="alerta_localidades">
+                <h1>ÚLTIMO ALERTA POR CIDADE</h1>
+                <nav>
+                    <ul>
+                        <select name="cidade" id="icidade">
+                            <option value="Cidade" selected>Cidade</option>
+                            <option value="JdN">Juazeiro do Norte</option>
+                        </select>
+
+                        <select name="bairro" id="ibairro">
+                            <option value="bairro">Bairro</option>
+                            <option value="AV">Antonio Vieira</option>
+                            <option value="Ce">Centro</option>
+                            <option value="LS">Lagoa Seca</option>
+                        </select>
+
+                        <select name="rua" id="irua">
+                            <option value="rua">Rua</option>
+                            <option value="AV">Cecilia Meireles</option>
+                            <option value="CE">Boa Vista</option>
+                            <option value="LS">Dra. Maria Nilda de Santana</option>
+                        </select>
+                    </ul>
+                </nav>
+            </div>
+            <div class="localidade">
+                <figure class="rato">
+                    <img src="img/rato-pode-comer-couve2-removebg-preview.png" alt="rato">
+                </figure>
+
+                <div class="local_inf">
+                    <div class="inf_container">
+                        <h2>Juazeiro do Norte</h2>
+                        <p class="local"><span>Local</span> - <span class="inf">Lagoa Seca - Rua Doutora Maria Nilda de Santana</span></p>
+                        <p class="quant"><span>Quantidade</span> - <span class="inf">10</span></p>
+                        <p class="prag"><span>Pragas</span> - <span class="inf">Ratos</span></p>
+                        <p class="hora"><span>Horário</span> - <span class="inf" id="demo"></span></p>
+                        <button class="f5" type="button" onclick="document.getElementById('demo').innerHTML = Date()">Atualizar</button>
+                    </div>
+                </div>
+
+                <figure class="medidor">
+                    <img src="img/Capturar-removebg-preview.png" alt="medidor">
+                </figure>
+            </div>
+        </section>
+
+        <section id="alert" class="alertas">
+            <div class="alerta_localidades">
+                <h1>PESQUISAR ALERTAS</h1>
+                <nav>
+                    <ul>
+                        <select name="cidade" id="icidade">
+                            <option value="Cidade" selected>Cidade</option>
+                            <option value="JdN">Juazeiro do Norte</option>
+                        </select>
+
+                        <select name="bairro" id="ibairro">
+                            <option value="bairro">Bairro</option>
+                            <option value="AV">Antonio Vieira</option>
+                            <option value="Ce">Centro</option>
+                            <option value="LS">Lagoa Seca</option>
+                        </select>
+
+                        <select name="rua" id="irua">
+                            <option value="rua">Rua</option>
+                            <option value="AV">Cecilia Meireles</option>
+                            <option value="CE">Boa Vista</option>
+                            <option value="LS">Dra. Maria Nilda de Santana</option>
+                        </select>
+                    </ul>
+                </nav>
+            </div>
+            <div class="localidade">
+                <figure class="loading">
+                    <img src="img/loading.gif" alt="Carregando">
+                </figure>
+
+                <div class="local_inf">
+                    <div class="inf_container">
+                        <h2>Selecione uma cidade:</h2>
+                        <p class="local"><span>Bairro</span> - <span class="inf">Selecione um bairro</span></p>
+                        <p class="quant"><span>Quantidade</span> - <span class="inf">Local não selecionado</span></p>
+                        <p class="prag"><span>Pragas</span> - <span class="inf">Local não selecionado</span></p>
+                        <p class="hora"><span>Horário</span> - <span class="inf" id="demos"></span></p>
+                        <button class="f5" type="button" onclick="document.getElementById('demos').innerHTML = Date()">Pesquisar</button>
+                    </div>
+        </section>
+
+        <section class="control">
+            <h2>Escolha qual praga urbana você gostaria de monitorar:</h2>
+            <div class="control-one">
+                    <div class="filters">
+                        <nav>
+                            <ul>
+                                <select name="cidade" id="icidade">
+                                        <option value="Praga" selected>Praga</option>
+                                        <option value="a">Aedes Aegypti</option>
+                                        <option value="b">Baratas</option>
+                                        <option value="c">Caramujos</option>
+                                        <option value="p">Pombos</option>
+                                        <option value="r">Ratos</option>
+                                    </select>
+
+                                    <select name="bairro" id="ibairro">
+                                        <option value="bairro">Bairro</option>
+                                        <option value="AV">Antonio Vieira</option>
+                                        <option value="Ce">Centro</option>
+                                        <option value="LS">Lagoa Seca</option>
+                                    </select>
+
+                                    <select name="rua" id="irua">
+                                        <option value="rua">Rua</option>
+                                        <option value="AV">Cecilia Meireles</option>
+                                        <option value="CE">Boa Vista</option>
+                                        <option value="LS">Dra. Maria Nilda de Santana</option>
+                                    </select>
+
+                                    <select name="Período" id="iperiodo">
+                                        <option value="periodo">Período</option>
+                                        <option value="tfh">24 horas</option>
+                                        <option value="feh">48 horas</option>
+                                        <option value="on">1 semana</option>
+                                    </select>
+
+                                    <input class="inp" type="button" onclick="funcao1()" value="Monitorar"/>    
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="butt">
+                        <button class="but-on">Exibir Relatório</button>
+                    </div>
+            </div>
+        </section>
+
+        <section id="report" class="relatorios">
+            <h1>Relatórios</h1>
+            <div class="relatorios_grid">
+                <a href="#" class="relatorio_items item1">
+                    <figure class="img1">
+                        <img src="img/55_genilton.jpg" alt="mosquito">
+                    </figure>
+
+                    <div class="text_relatorio">
+                        <h1>PRAGAS MAIS COMUNS DO JDN - CE</h1>
+                        <p>As pragas que mais aparecem nos últimos meses nessa cidade</p>
+                    </div>
+                </a>
+
+                <a href="#" class="relatorio_items item2">
+                    <figure class="img2">
+                        <img src="img/Paloma_bravía_(Columba_livia),_Palacio_de_Nymphenburg,_Múnich,_Alemania01.JPG" alt="mosquito">
+                    </figure>
+
+                    <div class="text_relatorio">
+                        <h1>ATAQUES MAIS PREOCUPANTES</h1>
+                        <p>As incidências de pragas que devem ser resolvidas com mais urgência </p>
+                    </div>
+                </a>
+
+                <a href="" class="relatorio_items item3">
+                    <figure class="img3">
+                        <img src="img/Evite-flagrante-de-rato-como-na-enfermaria-de-Hospital-no-Recife-com-a-desratizacao.jpg" alt="mosquito">
+                    </figure>
+
+                    <div class="text_relatorio">
+                        <h1>ÚLTIMOS SURTOS</h1>
+                        <p>Surtos ocorridos nas últimas 24h</p>
+                    </div>
+                </a>
+            </div>
+
+            <button class="filtros">Filtros</button>
+        </section>
+
+     
+
+        <section id="about" class="about_us">
+            <h2>Sobre nós</h2>
+
+            <div class="about">
+                <div class="paragr">
+                <p>Somos uma iniciativa do Centro Universitário Paraíso que, por meio do nosso Projeto Integrador, busque soluções desenvolvidas soluções inovadoras e eficientes para mitigar os ataques por pragas urbanas, utilizando tecnologias avançadas de Internet das Coisas (IoT). Nosso principal objetivo é criar um sistema que facilite o monitoramento, a coleta de dados e a análise em tempo real, promovendo maior eficácia no combate às práticas e na redução dos agentes prejudiciais.</p>
+                <p>Com base na participação ativa dos órgãos responsáveis, nosso projeto visa integrar tecnologias de ponta com práticas colaborativas para garantir que as soluções propostas atendam às necessidades reais das comunidades afetadas. Estamos comprometidos em fornecer ferramentas que auxiliem na tomada de decisões estratégicas.</p>
+                <p>Acreditamos que a união entre tecnologia, inovação e responsabilidade social é fundamental para superar desafios complexos e proporcionar um impacto positivo duradouro. Por isso, buscamos desenvolver um projeto que seja mais do que uma solução pontual: queremos ser parte de um movimento que transforma cidades em ambientes mais seguros.</p>
+                </div>
+
+                <div class="group">
+                <figure>
+                    <img src="img/SMARTSHIELD.gif" alt="Nosso grupo">
+                </figure>
+                </div>
+            </div>
+        </section>
+
+        <section class="project">
+            <h2>Simule nosso projeto</h2>
+
+            <div class="circuit">
+                <div class="arduino">
+                    <figure>
+                        <img src="img/Bodacious Allis.png" alt="Circuito integrado">
+                    </figure>
+                </div>
+
+                <div class="paragr">
+                    <p>Veja como o nosso projeto funciona na prática! Perceba como nossos sensores atuarão nas áreas estratégicas da ciade. A integração deles permite que o nosso sistema saiba qual praga está sendo monitorada no momento pela junção de todos esses sensores. Obs.: Alguns são adaptados para o ambiente de criação Tinkercad.</p>
+                   <button class="but"><a href="https://www.tinkercad.com/things/fuAvrsxmPG0-projeto-integrador-20242/editel?returnTo=%2Fthings%2FfuAvrsxmPG0-projeto-integrador-20242&sharecode=vmrlmGgwmeLAPt7bQw48cId2nfZvVzamLxhw7wIu2uk" target="_blank">Teste nosso projeto</a></button>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div id="contact" class="contact">
+            <div class="h1_contact">
+                <h1>Entre em contato conosco:</h1>
+            </div>
+
+            <div class="email">
+                <h2>E-MAIL</h2>
+                <p><a href="#">controledepragasiot@gmail.com</a></p>
+            </div>
+
+            <div class="social_medias">
+                <h2>MÍDIAS SOCIAIS</h2>
+                <ul>
+                    <li><a href="#" class="face">Facebook</a></li>
+                    <li><a href="#" class="inst">Instagram</a></li>
+                    <li><a href="#" class="twit">Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function funcao1(){
+            alert("Prontinho, nossa rede de sensores integrados irão monitorar as condições desejadas e você poderá verificar os resultados emitindo um relatório detalhado a qualquer momento e de qualquer lugar!");
+        }
+    </script>
+    
+</body>
+</html>
